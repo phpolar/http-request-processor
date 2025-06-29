@@ -1,0 +1,17 @@
+{
+    "name": "phpolar/http-request-processor",
+    "description": "Supports request processing interoperability.",
+    "type": "library",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phpolar\\HttpRequestProcessor\\": "src/"
+        }
+    }
+}
