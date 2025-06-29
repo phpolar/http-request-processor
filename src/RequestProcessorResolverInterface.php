@@ -8,7 +8,7 @@ namespace Phpolar\HttpRequestProcessor;
  * Used by the application to determine if the
  * request processor should be used. For example,
  * this could be used for authenticating HTTP
- * request targets after the request targets has 
+ * request targets after the request targets has
  * been resolved.
  */
 interface RequestProcessorResolverInterface
